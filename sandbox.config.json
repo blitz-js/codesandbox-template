@@ -1,0 +1,6 @@
+{
+  "template": "next",
+  "infiniteLoopProtection": true,
+  "hardReloadOnChange": false,
+  "view": "browser"
+}
