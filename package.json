@@ -2,8 +2,8 @@
   "name": "blitz-js",
   "version": "1.0.0",
   "scripts": {
-    "blitz": "PATH=/sandbox/node_modules/node/node_modules/.bin:$PATH blitz",
-    "start": "PATH=/sandbox/node_modules/node/node_modules/.bin:$PATH && blitz db migrate && blitz start",
+    "blitz": "PATH=/sandbox/node_modules/node/node_modules/.bin:/sandbox/node_modules/.bin:$PATH blitz",
+    "start": "PATH=/sandbox/node_modules/node/node_modules/.bin:/sandbox/node_modules/.bin:$PATH && blitz db migrate && blitz start",
     "studio": "blitz db studio",
     "build": "blitz build",
     "lint": "eslint --ignore-path .gitignore --ext .js,.ts,.tsx .",
