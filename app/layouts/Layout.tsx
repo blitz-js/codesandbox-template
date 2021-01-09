@@ -10,7 +10,7 @@ const Layout = ({ title, children }: LayoutProps) => {
   return (
     <>
       <Head>
-        <title>{title || "codesandbox-template"}</title>
+        <title>{title || "blitz-codesandbox-template"}</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
