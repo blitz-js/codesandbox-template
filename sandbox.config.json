@@ -1,7 +1,9 @@
 {
   "template": "next",
-  "node": "14",
   "infiniteLoopProtection": true,
   "hardReloadOnChange": false,
-  "view": "browser"
+  "view": "browser",
+  "container": {
+    "node": "14"
+  }
 }
