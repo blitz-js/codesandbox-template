@@ -21,8 +21,8 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "tsc && lint-staged && pretty-quick --staged",
-      "pre-push": "npm run lint && npm run test"
+      "pre-commit": "lint-staged && pretty-quick --staged",
+      "pre-push": "tsc && npm run lint && npm run test"
     }
   },
   "lint-staged": {
@@ -31,9 +31,9 @@
     ]
   },
   "dependencies": {
+    "blitz": "^0.28.0",
     "@prisma/cli": "~2.12",
     "@prisma/client": "~2.12",
-    "blitz": "latest",
     "final-form": "^4.20.1",
     "react": "0.0.0-experimental-3310209d0",
     "react-dom": "0.0.0-experimental-3310209d0",
