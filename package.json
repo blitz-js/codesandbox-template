@@ -2,7 +2,7 @@
   "name": "blitz-js",
   "version": "1.0.0",
   "scripts": {
-    "start": "blitz db migrate && blitz start",
+    "start": "blitz prisma migrate dev --preview-feature && blitz start",
     "studio": "blitz db studio",
     "build": "blitz build",
     "lint": "eslint --ignore-path .gitignore --ext .js,.ts,.tsx .",
@@ -31,9 +31,9 @@
     ]
   },
   "dependencies": {
-    "blitz": "^0.28.0",
-    "@prisma/cli": "~2.12",
-    "@prisma/client": "~2.12",
+    "blitz": "^0.29.0",
+    "@prisma/cli": "~2.14",
+    "@prisma/client": "~2.14",
     "final-form": "^4.20.1",
     "react": "0.0.0-experimental-3310209d0",
     "react-dom": "0.0.0-experimental-3310209d0",
