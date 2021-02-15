@@ -1,4 +1,3 @@
-import React from "react"
 import { RouterContext, BlitzRouter } from "blitz"
 import { render as defaultRender } from "@testing-library/react"
 import { renderHook as defaultRenderHook } from "@testing-library/react-hooks"
@@ -70,6 +69,7 @@ export const mockRouter: BlitzRouter = {
   asPath: "/",
   params: {},
   query: {},
+  isReady: true,
   push: jest.fn(),
   replace: jest.fn(),
   reload: jest.fn(),
