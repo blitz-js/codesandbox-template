@@ -2,7 +2,7 @@
 
 This is a [Blitz.js](https://github.com/blitz-js/blitz) app.
 
-# **name**
+# **Blitz.js Codesandbox**
 
 ## Getting Started
 
